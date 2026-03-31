@@ -12,7 +12,7 @@ load_dotenv()
 app = FastAPI()
 
 mimo_client = OpenAI(
-    api_key=os.getenv("sk-swvglwri2n16nfqrjsy8wsmrjqlcdq7xgt82aqouq40du245"),
+    api_key="sk-swvglwri2n16nfqrjsy8wsmrjqlcdq7xgt82aqouq40du245",
     base_url="https://api.xiaomimimo.com/v1"
 )
 
